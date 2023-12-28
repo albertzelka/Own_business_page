@@ -1,0 +1,1 @@
+Landing page for my joinery business. Assigniment from Odin Project curriculum.
