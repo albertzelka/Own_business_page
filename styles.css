@@ -13,7 +13,7 @@ body {
     align-items: center;
     font-size: 18px;
     color: #e5e7eb;
-    padding: 20px;        
+    padding: 20px 200px;        
     margin:0;
 }
 
@@ -35,4 +35,29 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.content {
+    display: flex;
+    padding: 0px 200px;
+}
+
+.banner_content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner_image {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
