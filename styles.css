@@ -8,7 +8,8 @@ body {
 
 .header {
     background-color: #1f2937;
-    display: flex;          
+    display: flex;    
+    flex-shrink: 0;     
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
@@ -37,16 +38,14 @@ a {
     color: #e5e7eb;
 }
 
-.banner {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
-
 .content {
     display: flex;
+    flex: 2;
     padding: 100px 200px;
     background-color: #1f2937;
+    flex-shrink: 0;
+    gap: 8px
+    ;
 }
 
 .banner_content {
@@ -54,6 +53,7 @@ a {
     flex: 1;
     flex-direction: column;
     align-items: flex-start;
+    flex-shrink: 0;
 }
 
 .banner_content h1,
@@ -74,7 +74,66 @@ a {
 
 .banner_image {
     display: flex;
+    flex-direction: column;
     flex: 1;
+    align-self: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-size: cover;
+}
+
+.banner_image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.services {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.services h2 {
+    margin-bottom: 0;
+}
+
+.service_cards {
+    display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
+    padding: 50px;
+}
+
+.service_card {
+    display: flex;;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.testimonials h2 {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    flex: 1 0;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
