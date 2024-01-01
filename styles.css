@@ -201,9 +201,22 @@ a {
 }
 
 .testimonial_cards {
-    display: flex;
+    display: flex;;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0;
     gap: 10px;
 }
+
+.testimonial_card p {
+    font-style: italic;
+    color: #1f2937;
+    font-size: 18px;
+
+}
+
+.testimonial_card {
+    text-align: center;
 
 #prev-btn, #next-btn {
     background-color: #3882f6;
@@ -219,6 +232,7 @@ a {
     border-radius: 10px;
   }
   #prev-btn:hover, #next-btn:hover {
-    background-color: #3e8e41;
+    background-color: #1a3f7a;
   }
+  
 
